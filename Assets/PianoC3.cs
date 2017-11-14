@@ -5,7 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 
 public class PianoC3 : MonoBehaviour {
-
     AudioSource source;
     public float semitone = 0f;
 
