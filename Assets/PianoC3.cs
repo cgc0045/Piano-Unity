@@ -37,9 +37,10 @@ public class PianoC3 : MonoBehaviour {
 
         source.Play();
     }
+   
 
     private void OnMouseUp()
     {
-        transform.Rotate(new Vector3(0, 0, 0));
+        transform.Rotate(new Vector3(15, 0, 0));
     }
 }
